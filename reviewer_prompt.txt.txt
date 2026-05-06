@@ -1,0 +1,6 @@
+Original Task: {task}
+        
+Current Draft Plan (JSON):
+{json_output}
+        
+Return the Final Corrected JSON.

@@ -1,0 +1,5 @@
+            // Append context file if present
+            const contextFileInput = document.getElementById('contextFile');
+            if (contextFileInput && contextFileInput.files && contextFileInput.files.length > 0) {
+                formData.append('context_file', contextFileInput.files[0]);
+            }

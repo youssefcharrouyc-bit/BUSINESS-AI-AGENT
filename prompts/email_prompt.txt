@@ -1,0 +1,12 @@
+Create an email campaign series for the following task:
+"{business_task}"
+
+Generate 3 sequential emails.
+For each email, provide:
+- email_number (1, 2, or 3)
+- subject (Catchy and relevant)
+- objective (What is the purpose of this email?)
+- body (The actual email text, keep it under 100 words per email)
+- call_to_action (What should the user click or do?)
+
+Format the output strictly as JSON matching the EmailCampaign schema.

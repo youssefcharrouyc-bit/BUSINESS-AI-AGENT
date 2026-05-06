@@ -1,0 +1,25 @@
+Break the plan into executable tasks.
+
+You must:
+- Limit tasks to what ACTUALLY matters
+- Order tasks by execution sequence
+- Assign priority realistically
+- Explain why each task exists
+
+Avoid vague tasks like "do marketing".
+
+Business Context:
+{business_task}
+
+Return JSON only in this format:
+{{
+  "tasks": [
+    {{
+      "task_order": 1,
+      "task_name": "clear actionable task",
+      "description": "what exactly needs to be done",
+      "priority": "High | Medium | Low",
+      "why_this_matters": "impact on the business"
+    }}
+  ]
+}}
